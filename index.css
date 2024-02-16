@@ -1,0 +1,242 @@
+body{
+  background: rgb(213,193,223);
+  background: linear-gradient(187deg, rgba(213,193,223,1) 0%, rgba(80,40,112,1) 95%);
+  background-repeat: no-repeat;
+}
+
+/* *{
+    font-family: 'Nunito',sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    
+} */
+
+
+
+
+
+html{
+    font-size: 62.5%;
+  }
+  
+  section{
+    padding: 2rem 9%;
+  }
+  
+  /* hr {
+    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed white;
+    border-width: 3px;
+  }
+   */
+
+/* header */
+
+.header{
+    background: rgb(252,247,255);
+    background: linear-gradient(5deg, rgba(213,193,223,1) 0%, rgba(206,154,230,1) 95%);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    z-index: 2;
+    
+  }
+  
+  
+  .header .logo img{
+    height: 6rem;
+
+  }
+  
+  .topnav a {
+    float: left;
+    color: #F5E8C7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #E19898;
+    color: black;
+  }
+  
+  .header #menu{
+    display: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  /* end header */
+
+  /* home */
+
+.home{
+    background: rgb(221,185,185);
+    background: linear-gradient(180deg, rgba(221,185,185,1) 38%, rgba(221,185,185,0.4318102240896359) 84%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+/* social */
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    
+  }
+
+  .fa-facebook {
+    background: #316FF6;
+    color: white;
+  }
+
+  .fa-facebook:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(319deg, rgba(131,58,180,1) 0%, rgba(69,156,252,1) 100%);
+  }
+   
+  .fa-instagram {
+    background: rgb(131,58,180);
+    background: linear-gradient(319deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+  }
+
+  .fa-instagram:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(319deg, rgba(131,58,180,1) 0%, rgba(252,115,69,1) 100%);
+  }
+
+  .fa-github {
+    background: #221D22;
+    color: white;
+  }
+
+  .fa-github:hover{
+    background: rgb(103,41,144);
+    background: linear-gradient(319deg, rgba(103,41,144,1) 10%, rgba(98,76,76,1) 72%);
+  }
+/* icon */
+
+
+  .home .content{
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+  }
+  
+  .home .content .title{
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .home .content .title span{
+    text-transform: uppercase;
+    color: #d3ad7f;
+  }
+  
+  .home .content .description{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  
+
+  .home .image{
+    flex: 600rem 500rem  ;
+  } 
+  
+  .home .image img{
+    width: 80%;
+    border-radius: 100px;
+  }
+  
+  /* end home */
+  
+  /*about*/
+
+
+.about .heading {
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .about .heading span {
+    text-transform: uppercase;
+    color: #d3ad7f;
+  
+  }
+  
+  .about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .about .row .image{
+    flex: 1 1 40rem;
+  }
+  
+  .about .row .image img{
+    width: 100%;
+    border-radius: 100px;
+  }
+  
+  .about .row .content{
+    flex: 1 1 40rem;
+  }
+  
+  .about .row .content span {
+    text-transform: uppercase;
+    color: #d3ad7f;
+  
+  }
+  
+  .about .row .content h3{
+    font-size: 20px;
+    color: white;
+   
+  }
+
+  .about .row .content h4{
+    font-size: 15px;
+    color: white;
+  }
+  
+  .about .row .content p{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  
+  
+
+  
+  /*end about*/
